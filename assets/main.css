@@ -2,17 +2,38 @@
 .bg-dark-grey{
    background: #222831;
 }
+.color-dark-grey{
+    color: #222831;
+}
 .bg-grey{
     background: #393E46;
 }
 .bg-blue{
 background: #00ADB5;
 }
+.cheader-color{
+    background: #222831;
+    color: #00ADB5;
+}
+.cbody-color{
+    background-color: #393E46;
+    color: #00ADB5;
+}
 .bg-white{
-    background: #EEEEEE;
+    background: rgb(230, 230, 230);
 }
 .jumbotron.jumbotron-fluid {
 margin-bottom: 0;
+}
+div.container-fluid.bg-grey{
+    font-family: 'Antic Slab', serif;
+    
+}
+p.lead{
+    color:rgb(255, 255, 255)
+}
+.text-color{
+  color: rgb(180, 180, 180);
 }
 .portfolio-box{
     position: relative;
