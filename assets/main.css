@@ -52,11 +52,8 @@ p{
 .text-color{
   color: rgb(180, 180, 180);
 }
-.portfolio-box{
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto;
+a.portfolio-box:hover{
+    color: rgba(0, 172, 181, 0.404);
 }
 .my-4{
  size: 20%;
