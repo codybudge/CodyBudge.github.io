@@ -71,3 +71,18 @@ hr{
 .marglft{
     margin-left: 1.2rem;
 }
+.github{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid rgb(46, 46, 46);
+}
+.name{
+    color: white;
+    font-size: 2rem;
+}
