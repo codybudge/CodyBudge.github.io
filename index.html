@@ -23,16 +23,16 @@
         </button>
         <div class="nav" id="navbarResponsive">
             <div class="d-flex justify-content-center">
-                <a class="nav-item nav-link text-white" href="#">About
+                <a class="nav-item nav-link text-white" onclick="app.controller.scrollPage('page', 1)" href="#">To Top
                     <span class="sr-only">(current)</span>
                 </a>
-                <a class="nav-item nav-link text-white" onclick="app.controller.scrollPage('skilz', 1)">Skilz</a>
-                <a class="nav-item nav-link text-white" href="#">Projects</a>
-                <a class="nav-item nav-link text-white" href="#">Contact</a>
+                <a class="nav-item nav-link text-white" onclick="app.controller.scrollPage('skilz', 1)" href="#">Skilz</a>
+                <a class="nav-item nav-link text-white" onclick="app.controller.scrollPage('projects', 1)" href="#">Projects</a>
+                <a class="nav-item nav-link text-white" onclick="app.controller.scrollPage('contact', 1)" href="#">Contact</a>
             </div>
         </div>
     </nav>
-    <header class="main-page mt-5" id="top-page">
+    <header class="main-page mt-5" id="page">
         <div class="jumbotron jumbotron-fluid bg-blue text-white">
             <div class="container">
                 <h1 class="display-4">"WE BUILD OUR COMPUTER SYSTEMS THE WAY WE BUILD OUR CITIES: OVER TIME, WITHOUT A PLAN, ON TOP OF RUINS"</h1>
@@ -208,7 +208,7 @@
         </div>
     </section>
     <!--end of link-->
-    <footer class="contacts text-center mt-5 mb-5">
+    <footer class="contacts text-center mt-5 mb-5" id="contact">
         <div class="row">
             <div class="col">
                 <h2>Contact Me</h2>
