@@ -85,3 +85,12 @@ hr{
     color: white;
     font-size: 2rem;
 }
+.col {
+    padding-right: 1rem;
+    padding-left: 1rem; 
+}
+@media only screen and (max-width: 600px) {
+.display-4 {
+    margin-top: 5rem;
+}
+}
